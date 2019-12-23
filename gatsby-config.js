@@ -1,9 +1,8 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `grid-art`,
+    description: ``,
+    author: `@rwatts_`,
+  },
+  plugins: [`gatsby-plugin-styled-components`],
 }
